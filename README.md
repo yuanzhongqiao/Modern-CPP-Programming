@@ -1,4 +1,4 @@
-# Modern C++ Programming
+# Modern C++ Programming  现代C++编程
 
 <p align="center">
 <img src="other/cpp_logo.png" />
@@ -30,277 +30,394 @@
 
 ## C++11  /  C++14  /  C++17  / C++20 / (C++23)
 
-This *open-access* course is directed at those who are already familiar with C and object-oriented programming towards a proficiency level of C++ programming. The course covers the basics of C++ programming and moves on to advanced C++ semantics and concepts.
 
-**Key features**:
-
-- *Free and frequently updated*
-- *22 lectures, ~1500 slides*
-- Include the *last language standard* concepts and features
-- *Practical teaching*: non-verbose, short structured descriptions associated with code
-- *Minimal code examples* for showing just a specific feature or issue without digressing
-- *Complementary language aspects*: tools, coding conventions, project organization, and code optimization
-- *Experience-based*: many aspects, examples, and problems come from real-world cases faced during my work as software engineer
-
-If you enjoy the course or you find it useful, please add a **Star**
-
- [![stars - Modern-CPP-Programming](https://img.shields.io/github/stars/federico-busato/Modern-CPP-Programming?style=social)](https://github.com/federico-busato/Modern-CPP-Programming)
-
-## CHAPTERS
-
-| #      | TITLE                                                                                                                                                                                                                                                                                          | MAIN FOCUS                                                                                |
-| ------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------- |
-| **1**  | [**Introduction**](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/01.Introduction.pdf) ([html](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/htmls/01.Introduction.html))                                                                       | History of C/C++, Areas of Applications, Course introduction                              |
-| **2**  | [**Basic Concepts I - Fundamental Types**](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/02.Basic_Concepts_I.pdf) ([html](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/htmls/02.Basic_Concepts_I.html))                                       | Types overview, operators, and conversion                                                 |
-| **3**  | [**Basic Concepts II - Integral and Floating-point Types**](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/03.Basic_Concepts_II.pdf) ([html](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/htmls/03.Basic_Concepts_II.html))                    | Integral and floating-point types and their arithmetic                                    |
-| **4**  | [**Basic Concepts III - Entities and Control Flow**](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/04.Basic_Concepts_III.pdf) ([html](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/htmls/04.Basic_Concepts_III.html))                         | Enumerators, structures, control flow statements                                          |
-| **5**  | [**Basic Concepts IV - Memory Management**](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/05.Basic_Concepts_IV.pdf) ([html](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/htmls/05.Basic_Concepts_IV.html))                                    | Heap, Stack, pointers, references, const properties, conversion operators                 |
-| **6**  | [**Basic Concepts V - Functions and Preprocessing**](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/06.Basic_Concepts_V.pdf) ([html](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/htmls/06.Basic_Concepts_V.html))                             | Functions, lambda expressions, preprocessing directives                                   |
-| **7**  | [**Object Oriented Programming I - Class Concepts**](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/07.Object_Oriented_I.pdf) ([html](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/htmls/07.Object_Oriented_I.html))                           | Class hierarchy, constructor, destructor, class keywords                                  |
-| **8**  | [**Object Oriented Programming II - Polymorphism and Operator Overloading**](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/08.Object_Oriented_II.pdf) ([html](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/htmls/08.Object_Oriented_II.html)) | Polymorphism, operators overloading                                                       |
-| **9**  | [**Templates and Meta-programming I - Function Templates and Compile-Time Utilities**](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/09.Templates_I.pdf) ([html](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/htmls/09.Templates_I.html))     | Function template, type traits                                                            |
-| **10** | [**Templates and Meta-programming II - Class Templates and SFINAE**](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/10.Templates_II.pdf) ([html](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/htmls/10.Templates_II.html))                     | Class template, SFINAE                                                                    |
-| **11** | [**Translation Units I**](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/11.Translation_Units_I.pdf) ([html](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/htmls/1.Translation_Units_I.html))                                                   | Linkage and One Definition Rule                                                           |
-| **12** | [**Translation Units II**](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/12.Translation_Units_II.pdf) ([html](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/htmls/12.Translation_Units_II.html))                                               | Dealing with multiple translation units and files,  `#include`, and modules               |
-| **13** | [**Code Conventions**](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/13.Code_Convention.pdf) ([html](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/htmls/13.Code_Convention.html))                                                             | Project organization and main code conventions                                            |
-| **14** | [**Ecosystem I**](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/14.Ecosystem_I.pdf) ([html](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/htmls/14.Ecosystem_I.html))                                                                          | Debugging, and testing                                                                    |
-| **15** | [**Ecosystem II**](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/15.Ecosystem_II.pdf) ([html](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/htmls/15.Ecosystem_II.html))                                                                       | Cmake, documenting, and other Tools                                                       |
-| **16** | [**Utilities**](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/16.Utilities.pdf) ([html](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/htmls/16.Utilities.html))                                                                                | Main `std` libraries                                                                      |
-| **17** | [**Containers, Iterators, and Algorithms**](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/17.Iterators_Containers_Alg.pdf) ([html](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/htmls/17.Iterators_Containers_Alg.html))                      | Containers, iterators, algorithms, ranges                                                 |
-| **18** | [**Advanced Topics I**](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/18.Advanced_Topics_I.pdf) ([html](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/htmls/18.Advanced_Topics_I.html))                                                        | Move semantics, universal reference, type deduction                                       |
-| **19** | [**Advanced Topics II**](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/19.Advanced_Topics_II.pdf) ([html](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/htmls/19.Advanced_Topics_II.html))                                                     | Error handling, C++ idioms, smart pointers                                                |
-| **20** | [**Optimization I - Basic Concepts**](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/20.Optimization_I.pdf) ([html](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/htmls/20.Optimization_I.html))                                                | Ahmdal Law, performance bounds, architecture concepts (ILP, SIMD, etc.), memory hierarchy |
-| **21** | [**Optimization II - Code Optimization**](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/21.Optimization_II.pdf) ([html](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/htmls/21.Optimization_II.html))                                          | Arithmetic optimizations, memory optimizations, etc.                                      |
-| **22** | [**Optimization III - Non-Coding Optimizations and Benchmarking**](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/22.Optimization_III.pdf) ([html](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/htmls/22.Optimization_III.html))               | Compiler optimizations, profiling and benchmarking tools                                  |
-
-***ALL-IN-ONE BOOK***: [**modern-cpp.pdf**](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/modern-cpp.pdf) (could be a few commits behind), [html](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/htmls/modern-cpp.html)
-
-## TOPICS IN DETAILS
-
-**[1. Introduction](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/01.Introduction.pdf)**
-
-* **A Little History of C/C++ Programming Languages**
-* **Areas of Application and Popularity**
-* **C++ Philosophy**
-* **C++ Weakness**
-* **Books and References**
-* **The Course**
-
-**[2. Basic Concepts I - Fundamental Types and Operations](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/02.Basic_Concepts_I.pdf)**
-
-* **Preparation**: What compiler should I use?, What editor/IDE compiler should I use?, How to compile?
-* **Hello World**: I/O Stream
-* **C++ Fundamental Types Overview**: Arithmetic types, Non-standard arithmetic types, `void` type, Pointer type and `nullptr`
-* **Conversion Rules**
-* **`auto` declaration**
-* **C++ Operators**: Operators precedence, Prefix/Postfix increment/decrement, Assignment, Compound , and Comma operators, Spaceship operator `<=>` , Safe Comparison Operators
-
-**[3. Basic Concepts II - Integral and Floating-point Types](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/03.Basic_Concepts_II.pdf)**
-
-* **Integral Data Types**: Fixed width integers, `size_t` and`ptrdiff_t`, Signed/Unsigned integer characteristics, Promotion, Truncation, Undefined behavior
-* **Floating-point Types and Arithmetic**: IEEE Floating-point Standard and Other Representations, Normal/Denormal values, Infinity, Not a Number (`NaN`), Machine Epsilon, Units at the Last Place (ULP), Cheatsheet, Summary, Arithmetic Properties, Detect Floating-point Errors
-* **Floating-point Issues**: Catastrophic cancellation, Floating-point comparison
-
-**[4. Basic Concepts III - Entities and Control Flow](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/04.Basic_Concepts_III.pdf)**
-
-* **Entities**
-* **Declaration and Definition**
-* **Enumerators**
-* **`struct`, Bitfield, `union`**
-* **Control Flow**: `if` Statement, `for` Loop, Range-base `for` loop, `switch`, `goto`, Avoid unused variable warning `[[maybe unused]]`
-
-**[5. Basic Concepts IV - Memory Concepts](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/05.Basic_Concepts_IV.pdf)**
-
-* **Heap and Stack**: Stack Memory, `new`, `delete`, Non-allocating placement allocation, Non-throwing allocation, Memory leak
-* **Initialization**: Variable initialization, Uniform initialization, Fixed-size array initialization, Structure initialization, Dynamic memory initialization
-* **Pointers and References**: Pointer Operations, Address-of operator `&`, Reference
-* **Constant and Literals, `const`, `constexpr`, `consteval`, `constinit`**, `if constexpr`, `std::is constant evaluated()`, `if consteval`
-* **`volatile` keyword**
-* **Explicit Type Conversion**: `static_cast`, `const_cast`, `reinterpret_cast`, Type punning
-* `sizeof` Operator
-
-**[6. Basic Concepts V - Functions and Preprocessing](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/06.Basic_Concepts_V.pdf)**
-
-* **Functions**: Pass by-value, Pass by-pointer, Pass by-reference, Function signature and Overloading, Overloading and `=delete`, Default parameters, Attributes `[[attributes]]`
-* **Function Pointer and Function Objects** 
-* **Lambda Expressions**: Capture list, Parameters, Composability, `constexpr/consteval`, `template`, `mutable`, `[[nodiscard]]`, Capture list and classes
-* **Preprocessing**: Preprocessors, Common errors, Source location macros, Conditional compiling macros, Stringizing operator (`#`),  `#error` and `warning`, `#pragma`, Token-Pasting Operator (`##`), Variadic Macro
-
-**[7. Object-Oriented Programming I - Class Concepts](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/07.Object_Oriented_I.pdf)**
-
-* **C++ Classes**: RAII Idiom
-* **Class Hierarchy**
-* **Access specifiers**: Inheritance access specifiers, When use `public/protected/private` for data members?
-* **Class Constructor**: Default constructor, Class initialization, Uniform initialization for objects, Delegate constructor, `explicit` keyword, `[[nodiscard]]` and classes
-* **Copy Constructor**
-* **Class Destructor**
-* **Defaulted  Constructors, Destructor, and Operators** (`= default`)
-* **Class Keywords**: `this`, `static`, `const`, `mutable`, `using`, `friend`, `delete`
-
-**[8. Object-Oriented Programming II - Polymorphism and Operator Overloading](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/08.Object_Oriented_II.pdf)**
-
-* **Polymorphism**: `virtual` methods, Virtual table, `override` keyword, `final` keyword, Common errors, Pure virtual method, Abstract class and interface
-* **Inheritance Casting and Run-time Type Identification**
-* **Operator Overloading**: Overview, Comparison operator `<`, Spaceship operator `<=>`, Subscript operator `[]`, Multidimensional Subscript operator `[]`, Function call operator `()`, static operator `[]` and operator `()`, Conversion operator `T()`, Return type overloading resolution, Increment and decrement operators `++`/`--`, Assignment operator `=`, Stream operator `<<`, Operator Notes
-* **C++ Special Objects**: Aggregate, Trivial class, Standard-layout class, Plain old data (POD), Hierarchy
-
-**[9. Templates and Meta-programming I - Function Templates and Compile-Time Utilities](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/09.Templates_I.pdf)**
-
-* **Function Template**: Overview, Template parameters, Template parameter - default value, Overloading, Specialization
-* **Template Variable**
-* **Template Parameter Types**: Generic Type Notes, `auto` Placeholder, Class template parameter type, Array and pointer types, Function type 
-* **Compile-Time Utilities**: `static_assert`, `decltype` Keyword, `using` Keyword
-* **Type Traits**: Overview, Type traits library, Type manipulation
-
-**[10. Templates and Meta-programming II -  Class Templates and SFINAE](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/10.Templates_II.pdf)**
-
-* **Class Template**: Class specialization, Class template constructor, Constructor template automatic deduction (CTAD)
-* **Class Template - Advanced Concepts**: Class + Function - Specialization, Dependent Names - `typename` and `template` Keywords, Class template hierarchy and `using`, `friend` Keyword, Template Template Arguments
-* **Template Meta-Programming**
-* **SFINAE: Substitution Failure Is Not An Error**: Function SFINAE, Class SFINAE, Class + Function SFINAE
-* **Variadic Template**: Folding Expression, Variadic class template
-* **C++20 Concepts**: Overview, `concept` Keyword, `requires` Clause, `requires` Expression, `requires` Expression + Clause, `requires` Clause + Expression, `requires` and `constexpr`, Nested `requires`
-
-**[11. Translation Units I - Linkage and One Definition Rule](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/11.Translation_Units_I.pdf)**
-
-* **Basic Concepts**: Translation unit, Local and global scope, Linkage
-* **Storage Class and Duration**: Storage duration, Storage class, `static` and `extern` keywords, Internal/External linkage examples
-* **Linkage of `const` and `constexpr`**: Static Initialization Order Fiasco
-* **Linkage Summary**
-* **Dealing with Multiple Translation Units**: Class in multiple translation units
-* **One Definition Rule (ODR)**: Global variable issues, ODR - Point 3, `inline` functions/variables, `constexpr` and `inline`
-* **ODR - Function Template**: Cases, `extern` keyword
-* **ODR - Class Template**: Cases, `extern` keyword
-* **ODR Undefined Behavior and Summary**
-
-**[12. Translation Units II - Include, Module, and Namespace](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/12.Translation_Units_II.pdf)**
-
-- **`#include` Issues**: Forward declaration, Include guard, Circular dependencies, Common linking errors
-- **C++20 Modules**: Overview, Terminology, Visibility and Reachability, Module unit types, Keywords, Global module fragment, Private module fragment, Header module unit, Module partitions
-- **Namespace**: Namespace functions vs. `static` methods, Namespace alias, Anonymous namespace, `inline` namespace, Attributes and namespace
-- **Compiling Multiple Translation Units**: Fundamental compiler flags, Compile Methods, Deal with libraries, Build static/dynamic libraries, Find dynamic library dependencies, Analyze object/executable symbols
-
-**[13. Code Conventions](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/13.Code_Convention.pdf)**
-
-* **C++ Project Organization**: Project directories, Project files, “Common” Project Organization Notes, Alternative - “Canonical” project organization
-* **Coding Styles and Conventions**
-* **`#include`**
-* **Macro and Preprocessing**
-* **Namespace**
-* **Variables and Arithmetic Types**
-* **Functions**
-* **Structs and Classes**
-* **Control Flow**
-* **Modern C++ Features**
-* **Maintainability**
-* **Naming**
-* **Readability and Formatting**
-* **Code Documentation**
-
-**[14. Ecosystem I - Debugging](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/14.Ecosystem_I.pdf)**
-
-* **Debugging**
-* **Assertion**
-* **Execution debugging**: Breakpoints, Watchpoints / Catchpoints, Control Flow, Stack and Info, Print, Disassemble
-* **Memory Debugging**: `valgrind`, Stack protection
-* **Sanitizers**: Address sanitizer, Leak sanitizer, Memory sanitizers, Undefined behavior sanitizer
-* **Debugging Summary**
-* **Compiler Warnings**
-* **Static Analysis**
-* **Code Testing**: Unit test, Test-Driven Development (TDD), Code coverage, Fuzz testing
-* **Code Quality**: `clang-tidy`
-
-**[15. Ecosystem II - Cmake and Other Tools](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/15.Ecosystem_II.pdf)**
-
-- **CMake**: `cmake` and `ctest`
-- **Code Documentation**: `doxygen`
-- **Code Statistics**: Count lines of code, Cyclomatic complexity analyzer
-- **Other Tools**: Code formatting - `clang-format`, `Compiler Explorer`, Code transformation - `CppInsights`, Code autocompletion - `GitHub Co-Pilot/TabNine/Kite`, Local code search - `ripgrep`, Code search engine - `searchcode/grep.app`, Code benchmarking - `Quick-Bench`, Font for Coding
-
-**[16. Utilities](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/16.Utilities.pdf)**
-
-* **I/O Stream**: Manipulator, `ofstream/ifstream`
-* **Strings**: `std::string`, Conversion from/to numeric  values, `std::string_view`, `std::format`, `std::print`
-* **Math Libraries**
-* **Random Number**: Basic Concepts, C++ `<random>`, Seed, PRNG period and quality, Distribution, Quasi-random
-* **Time Measuring**: Wall-Clock time, User time, System time
-* **Std Class Templates**: `std::pair`, `std::tuple`, `std::variant`, `std::optional`, `std::any`, `std::stacktrace`
-* **Filesystem Library**: Query methods, Modify methods
-
-**[17. Containers, Iterators, and Algorithms](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/17.Iterators_Containers_Alg.pdf)**
-
-* **Containers and Iterators**
-* **Sequence Containers**: `std::array`, `std::vector`, `std::list`, `std::deque`, `std::forward_list`
-* **Associative Containers**: `std::set`, `std::map`, `std::multiset`
-* **Container Adaptors**: `std::stack`, `std::queue`, `std::priority_queue`
-* **View**: `std::span`
-* **Implement a Custom Iterator**: Semantic, Implement a simple Iterator
-* **Iterator Utility Methods**: `std::advance`, `std::next`, `std::prev`, `std::distance`, Container access methods, Iterator traits
-* **Algorithms Library**: `std::find_if`, `std::sort`, `std::accumulate`, `std::generate`, `std::remove_if`
-* **C++20 Ranges**: Key concepts, Range view,  Range adaptor, Range factory, Range algorithms, Range actions
-
-**[18. Advanced Topics I](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/18.Advanced_Topics_I.pdf)**
-
-* **Move Semantic**: `lvalues` and `rvalues` references, Move semantic, `std::move`, Class Declaration Semantic
-* **Universal Reference and Perfect Forwarding**: Universal reference, Reference collapsing rules, Perfect forwarding
-* **Value Categories**
-* **`&`, `&&` Ref-qualifiers and `volatile` Overloading**
-* **Copy Elision and RVO**
-* **Type Deduction**: Pass by-reference, Pass by-pointer, Pass by-value, `auto` deduction
-* **`const` Correctness**
-
-**[19. Advanced Topics II](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/19.Advanced_Topics_II.pdf)**
-
-- **Undefined Behavior:** Common cases, Detecting undefined behavior
-- **Error Handling**: C++ Exceptions, Defining custom exceptions, `noexcept` keyword, Memory allocation issues, Alternative error handling approaches
-- **C++ Idioms**: Rule of zero/three/five, Singleton, PIMPL, CRTP, Template Virtual Functions
-- **Smart pointers**: `std::unique_ptr`, `std::shared_ptr`, `std::weak_ptr`
-- **Concurrency**: Thread Methods, Mutex, Atomic, Task-based parallelism
-
-**[20. Optimization I - Basic Concepts](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/20.Optimization_I.pdf)**
-
-* **Introduction**: Moore’s Law, Moore’s Law limitations, Reasons for Optimizing
-* **Basic Concepts**: Asymptotic complexity, Time-Memory Trade-off, Developing Cycle, Ahmdal's law, Throughput, Bandwidth, Latency, Performance bounds, Arithmetic intensity
-* **Basic Architecture Concepts**: Instruction-level parallelism (ILP), Little’s law, Data-level parallelism (SIMD), Thread-level parallelism (TLP), Single Instruction Multiple Threads (SIMT), RISC, CISC Instruction sets
-* **Memory Hierarchy**: Memory hierarchy concepts, Memory locality
-
-**[21. Optimization II - Code Optimization](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/21.Optimization_II.pdf)**
-
-* **I/O Operations**: `printf`, Memory mapped I/O, Speed up raw data loading
-* **Memory Optimizations**: Heap memory, Stack memory, Cache utilization, data alignment, Memory Prefetch
-* **Arithmetic**: Data types, Operations, Conversion, Floating-point, Compiler intrinsic functions, Value in a range, Lookup table
-* **Control Flow**: Loop hoisting, Loop unrolling, Branch hints `[[likely/unlikely]]`, Compiler hints `[[assume]]`, Recursion
-* **Functions**: Function call cost, Argument passing, Function optimizations, Function inlining, Pointers aliasing
-* **Object-Oriented Programming**
-* **Std Library and Other Language Aspects**
-
-**[22. Optimization III - Non-Coding Optimizations and Benchmarking](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/22.Optimization_III.pdf)**
-
-* **Compiler Optimizations**: About the compiler, Compiler optimization flags, Linker optimization flags, Architecture flags, Help the Compiler to produce better code, Profile guided optimization (PGO), Post-Processing Binary Optimizer
-* **Compiler Transformation Techniques**: Basic Transformations, Loop unswitching, Loop fusion, Loop fission, Loop interchange, Loop tiling
-* **Libraries and Data Structures**: External libraries
-* **Performance Benchmarking**: What to test?, Workload/Dataset quality, Cache behavior, Stable CPU performance, Program, Multi-threads considerations, Program memory layout, Measurement overhead, Compiler optimizations, Metric evaluation
-* **Profiling**: `gprof`, `uftrace`, `callgrind`, `cachegrind`, `perf` Linux profiler
-* **Parallel Computing**: Concurrency vs. Parallelism, Performance scaling, Gustafson’s Law, Parallel programming languages
-
-### Roadmap
-
-1. Software Design Chapter
-2. Build Aspects Chapter (e.g. reducing build time)
-
-### Essential Tool
-
-Online compiler and execution: [CompilerExplorer](https://godbolt.org/)
-
-* for code execution: [Add new..] -> [execution only]
-
-### Reporting bugs 🐛 and contributing
-
-If you find any typo, conceptual error, or section to improve, please report them by using the `issue` panel.
-
-## Author
-
-`Federico Busato`
-
-- Twitter: [twitter.com/fedebusato](https://twitter.com/fedebusato)
-- LinkedIn: [www.linkedin.com/in/federico-busato/](https://www.linkedin.com/in/federico-busato/)
+<div class="Box-sc-g0xbh4-0 bJMeLZ js-snippet-clipboard-copy-unpositioned" data-hpc="true"><article class="markdown-body entry-content container-lg" itemprop="text"><h1 tabindex="-1" dir="auto"><a id="user-content-modern-c-programming" class="anchor" aria-hidden="true" tabindex="-1" href="#modern-c-programming"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">现代 C++ 编程</font></font></h1>
+<p align="center" dir="auto">
+<a target="_blank" rel="noopener noreferrer" href="/federico-busato/Modern-CPP-Programming/blob/master/other/cpp_logo.png"><img src="/federico-busato/Modern-CPP-Programming/raw/master/other/cpp_logo.png" style="max-width: 100%;"></a>
+</p>
+<p align="center" dir="auto">
+    <a href="https://github.com/federico-busato/Modern-CPP-Programming/releases" alt="发布">
+        <img src="https://camo.githubusercontent.com/3287d214ae2efb503bf365a79f8554001cdca896288e4b9f0d9daf861b51ca80/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f762f72656c656173652f666564657269636f2d62757361746f2f4d6f6465726e2d4350502d50726f6772616d6d696e673f7374796c653d666f722d7468652d6261646765" data-canonical-src="https://img.shields.io/github/v/release/federico-busato/Modern-CPP-Programming?style=for-the-badge" style="max-width: 100%;">
+    </a>
+</p>
+<p align="center" dir="auto">
+    
+        <a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/8628a36a2c53206682489ed74f0b098df89486ef6efb82aac9cae201b251408a/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f73746172732f666564657269636f2d62757361746f2f4d6f6465726e2d4350502d50726f6772616d6d696e673f7374796c653d666f722d7468652d6261646765"><img src="https://camo.githubusercontent.com/8628a36a2c53206682489ed74f0b098df89486ef6efb82aac9cae201b251408a/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f73746172732f666564657269636f2d62757361746f2f4d6f6465726e2d4350502d50726f6772616d6d696e673f7374796c653d666f722d7468652d6261646765" data-canonical-src="https://img.shields.io/github/stars/federico-busato/Modern-CPP-Programming?style=for-the-badge" style="max-width: 100%;"></a>
+    
+    <a href="https://github.com/federico-busato/Modern-CPP-Programming/network/members" alt="叉子">
+        <img src="https://camo.githubusercontent.com/0ae2534a5b5665f8855a63f376d7509acfdbd98cb0195049f40f71bc246d350b/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f666f726b732f666564657269636f2d62757361746f2f4d6f6465726e2d4350502d50726f6772616d6d696e673f7374796c653d666f722d7468652d6261646765" data-canonical-src="https://img.shields.io/github/forks/federico-busato/Modern-CPP-Programming?style=for-the-badge" style="max-width: 100%;">
+    </a>
+</p>
+<p align="center" dir="auto">
+    <a href="https://github.com/federico-busato/Modern-CPP-Programming/commits/master" alt="提交">
+        <img src="https://camo.githubusercontent.com/bb8bfcf6f5f9a0f58686a92010701e0359263eef170c1a3cbff1263003f9d6f2/68747470733a2f2f62616467656e2e6e65742f6769746875622f636f6d6d6974732f666564657269636f2d62757361746f2f4d6f6465726e2d4350502d50726f6772616d6d696e673f7374796c653d666f722d7468652d6261646765267363616c653d312e32" data-canonical-src="https://badgen.net/github/commits/federico-busato/Modern-CPP-Programming?style=for-the-badge&amp;scale=1.2" style="max-width: 100%;">
+    </a>
+</p>
+<p align="center" dir="auto">
+    <a href="https://github.com/federico-busato/Modern-CPP-Programming-Material/issues" alt="问题">
+        <img src="https://camo.githubusercontent.com/a23c10672be719290b53d6a0e225cd10a0fc8f1617f743e76368a5e65e849dbf/68747470733a2f2f62616467656e2e6e65742f6769746875622f636c6f7365642d6973737565732f666564657269636f2d62757361746f2f4d6f6465726e2d4350502d50726f6772616d6d696e673f7374796c653d666f722d7468652d6261646765267363616c653d312e32" data-canonical-src="https://badgen.net/github/closed-issues/federico-busato/Modern-CPP-Programming?style=for-the-badge&amp;scale=1.2" style="max-width: 100%;">
+    </a>
+</p>
+<h2 tabindex="-1" dir="auto"><a id="user-content-c11----c14----c17---c20--c23" class="anchor" aria-hidden="true" tabindex="-1" href="#c11----c14----c17---c20--c23"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">C++11 / C++14 / C++17 / C++20 / (C++23)</font></font></h2>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">该</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">开放式</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">课程面向那些已经熟悉 C 和面向对象编程并达到 C++ 编程熟练程度的人员。本课程涵盖 C++ 编程基础知识，并继续介绍高级 C++ 语义和概念。</font></font></p>
+<p dir="auto"><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">主要特征</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：</font></font></p>
+<ul dir="auto">
+<li><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">免费且经常更新</font></font></em></li>
+<li><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">22 个讲座，约 1500 张幻灯片</font></font></em></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">包括</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">最新语言标准的</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">概念和功能</font></font></li>
+<li><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">实践教学</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：与代码相关的非冗长、简短的结构化描述</font></font></li>
+<li><em><font style="vertical-align: inherit;"></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">仅显示特定功能或问题的</font><em><font style="vertical-align: inherit;">最少代码示例，无需偏离主题</font></em></font></li>
+<li><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">互补的语言方面</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：工具、编码约定、项目组织和代码优化</font></font></li>
+<li><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">基于经验</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：许多方面、示例和问题都来自我作为软件工程师期间遇到的实际案例</font></font></li>
+</ul>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您喜欢本课程或者觉得它有用，请添加</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">星星</font></font></strong></p>
+<p dir="auto"><a href="https://github.com/federico-busato/Modern-CPP-Programming"><img src="https://camo.githubusercontent.com/54a6b7994f6a40dd42ccb1af092c496ca1cf5b54e5b78083d185f1da21012301/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f73746172732f666564657269636f2d62757361746f2f4d6f6465726e2d4350502d50726f6772616d6d696e673f7374796c653d736f6369616c" alt="星星 - 现代 CPP 编程" data-canonical-src="https://img.shields.io/github/stars/federico-busato/Modern-CPP-Programming?style=social" style="max-width: 100%;"></a></p>
+<h2 tabindex="-1" dir="auto"><a id="user-content-chapters" class="anchor" aria-hidden="true" tabindex="-1" href="#chapters"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">章节</font></font></h2>
+<table>
+<thead>
+<tr>
+<th><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">#</font></font></th>
+<th><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">标题</font></font></th>
+<th><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">主要焦点</font></font></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">1</font></font></strong></td>
+<td><a href="https://github.com/federico-busato/Modern-CPP-Programming/blob/master/01.Introduction.pdf"><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">简介</font></font></strong></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">&nbsp;（</font></font><a href="https://github.com/federico-busato/Modern-CPP-Programming/blob/master/htmls/01.Introduction.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> html</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）</font></font></td>
+<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">C/C++的历史、应用领域、课程介绍</font></font></td>
+</tr>
+<tr>
+<td><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">2</font></font></strong></td>
+<td><a href="https://github.com/federico-busato/Modern-CPP-Programming/blob/master/02.Basic_Concepts_I.pdf"><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">基本概念 I - 基本类型</font></font></strong></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">&nbsp;(</font></font><a href="https://github.com/federico-busato/Modern-CPP-Programming/blob/master/htmls/02.Basic_Concepts_I.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> html</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> )</font></font></td>
+<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">类型概述、运算符和转换</font></font></td>
+</tr>
+<tr>
+<td><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">3</font></font></strong></td>
+<td><a href="https://github.com/federico-busato/Modern-CPP-Programming/blob/master/03.Basic_Concepts_II.pdf"><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">基本概念 II - 整数和浮点类型</font></font></strong></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">&nbsp;(</font></font><a href="https://github.com/federico-busato/Modern-CPP-Programming/blob/master/htmls/03.Basic_Concepts_II.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> html</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> )</font></font></td>
+<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">整型和浮点类型及其算术</font></font></td>
+</tr>
+<tr>
+<td><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">4</font></font></strong></td>
+<td><a href="https://github.com/federico-busato/Modern-CPP-Programming/blob/master/04.Basic_Concepts_III.pdf"><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">基本概念 III - 实体和控制流</font></font></strong></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">&nbsp;(</font></font><a href="https://github.com/federico-busato/Modern-CPP-Programming/blob/master/htmls/04.Basic_Concepts_III.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> html</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> )</font></font></td>
+<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">枚举器、结构体、控制流语句</font></font></td>
+</tr>
+<tr>
+<td><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">5</font></font></strong></td>
+<td><a href="https://github.com/federico-busato/Modern-CPP-Programming/blob/master/05.Basic_Concepts_IV.pdf"><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">基本概念 IV - 内存管理</font></font></strong></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">&nbsp;(</font></font><a href="https://github.com/federico-busato/Modern-CPP-Programming/blob/master/htmls/05.Basic_Concepts_IV.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> html</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> )</font></font></td>
+<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">堆、栈、指针、引用、const 属性、转换运算符</font></font></td>
+</tr>
+<tr>
+<td><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">6</font></font></strong></td>
+<td><a href="https://github.com/federico-busato/Modern-CPP-Programming/blob/master/06.Basic_Concepts_V.pdf"><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">基本概念 V - 函数和预处理</font></font></strong></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">&nbsp;(</font></font><a href="https://github.com/federico-busato/Modern-CPP-Programming/blob/master/htmls/06.Basic_Concepts_V.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> html</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> )</font></font></td>
+<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">函数、lambda 表达式、预处理指令</font></font></td>
+</tr>
+<tr>
+<td><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">7</font></font></strong></td>
+<td><a href="https://github.com/federico-busato/Modern-CPP-Programming/blob/master/07.Object_Oriented_I.pdf"><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">面向对象编程 I - 类概念</font></font></strong></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">&nbsp;(</font></font><a href="https://github.com/federico-busato/Modern-CPP-Programming/blob/master/htmls/07.Object_Oriented_I.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> html</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> )</font></font></td>
+<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">类层次结构、构造函数、析构函数、类关键字</font></font></td>
+</tr>
+<tr>
+<td><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">8</font></font></strong></td>
+<td><a href="https://github.com/federico-busato/Modern-CPP-Programming/blob/master/08.Object_Oriented_II.pdf"><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">面向对象编程 II - 多态性和运算符重载</font></font></strong></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">&nbsp;(</font></font><a href="https://github.com/federico-busato/Modern-CPP-Programming/blob/master/htmls/08.Object_Oriented_II.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> html</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> )</font></font></td>
+<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">多态、运算符重载</font></font></td>
+</tr>
+<tr>
+<td><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">9</font></font></strong></td>
+<td><a href="https://github.com/federico-busato/Modern-CPP-Programming/blob/master/09.Templates_I.pdf"><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">模板和元编程 I - 函数模板和编译时实用程序</font></font></strong></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">&nbsp;(</font></font><a href="https://github.com/federico-busato/Modern-CPP-Programming/blob/master/htmls/09.Templates_I.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> html</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> )</font></font></td>
+<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">函数模板、类型特征</font></font></td>
+</tr>
+<tr>
+<td><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">10</font></font></strong></td>
+<td><a href="https://github.com/federico-busato/Modern-CPP-Programming/blob/master/10.Templates_II.pdf"><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">模板和元编程 II - 类模板和 SFINAE</font></font></strong></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> &nbsp;(</font></font><a href="https://github.com/federico-busato/Modern-CPP-Programming/blob/master/htmls/10.Templates_II.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> html</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> )</font></font></td>
+<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">类模板，SFINAE</font></font></td>
+</tr>
+<tr>
+<td><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">11</font></font></strong></td>
+<td><a href="https://github.com/federico-busato/Modern-CPP-Programming/blob/master/11.Translation_Units_I.pdf"><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">翻译单元 I</font></font></strong></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> &nbsp;(</font></font><a href="https://github.com/federico-busato/Modern-CPP-Programming/blob/master/htmls/1.Translation_Units_I.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> html</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> )</font></font></td>
+<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">链接和单一定义规则</font></font></td>
+</tr>
+<tr>
+<td><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">12</font></font></strong></td>
+<td><a href="https://github.com/federico-busato/Modern-CPP-Programming/blob/master/12.Translation_Units_II.pdf"><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">翻译单元 II</font></font></strong></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> &nbsp;(</font></font><a href="https://github.com/federico-busato/Modern-CPP-Programming/blob/master/htmls/12.Translation_Units_II.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> html</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> )</font></font></td>
+<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">处理多个翻译单元和文件、&nbsp;&nbsp;</font></font><code>#include</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">以及模块</font></font></td>
+</tr>
+<tr>
+<td><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">13</font></font></strong></td>
+<td><a href="https://github.com/federico-busato/Modern-CPP-Programming/blob/master/13.Code_Convention.pdf"><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">代码约定</font></font></strong></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">&nbsp;(</font></font><a href="https://github.com/federico-busato/Modern-CPP-Programming/blob/master/htmls/13.Code_Convention.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> html</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> )</font></font></td>
+<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">项目组织和主要代码约定</font></font></td>
+</tr>
+<tr>
+<td><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">14</font></font></strong></td>
+<td><a href="https://github.com/federico-busato/Modern-CPP-Programming/blob/master/14.Ecosystem_I.pdf"><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">生态系统一</font></font></strong></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">&nbsp;(</font></font><a href="https://github.com/federico-busato/Modern-CPP-Programming/blob/master/htmls/14.Ecosystem_I.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> html</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> )</font></font></td>
+<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">调试和测试</font></font></td>
+</tr>
+<tr>
+<td><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">15</font></font></strong></td>
+<td><a href="https://github.com/federico-busato/Modern-CPP-Programming/blob/master/15.Ecosystem_II.pdf"><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">生态系统二</font></font></strong></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">&nbsp;(</font></font><a href="https://github.com/federico-busato/Modern-CPP-Programming/blob/master/htmls/15.Ecosystem_II.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> html</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> )</font></font></td>
+<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Cmake、文档和其他工具</font></font></td>
+</tr>
+<tr>
+<td><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">16</font></font></strong></td>
+<td><a href="https://github.com/federico-busato/Modern-CPP-Programming/blob/master/16.Utilities.pdf"><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">实用程序</font></font></strong></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">&nbsp;(</font></font><a href="https://github.com/federico-busato/Modern-CPP-Programming/blob/master/htmls/16.Utilities.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> html</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> )</font></font></td>
+<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">主要</font></font><code>std</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">图书馆</font></font></td>
+</tr>
+<tr>
+<td><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">17 号</font></font></strong></td>
+<td><a href="https://github.com/federico-busato/Modern-CPP-Programming/blob/master/17.Iterators_Containers_Alg.pdf"><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">容器、迭代器和算法</font></font></strong></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">&nbsp;(</font></font><a href="https://github.com/federico-busato/Modern-CPP-Programming/blob/master/htmls/17.Iterators_Containers_Alg.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> html</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> )</font></font></td>
+<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">容器、迭代器、算法、范围</font></font></td>
+</tr>
+<tr>
+<td><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">18</font></font></strong></td>
+<td><a href="https://github.com/federico-busato/Modern-CPP-Programming/blob/master/18.Advanced_Topics_I.pdf"><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">高级主题 I</font></font></strong></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> &nbsp;(</font></font><a href="https://github.com/federico-busato/Modern-CPP-Programming/blob/master/htmls/18.Advanced_Topics_I.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> html</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> )</font></font></td>
+<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">移动语义、通用引用、类型推导</font></font></td>
+</tr>
+<tr>
+<td><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">19</font></font></strong></td>
+<td><a href="https://github.com/federico-busato/Modern-CPP-Programming/blob/master/19.Advanced_Topics_II.pdf"><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">高级主题 II</font></font></strong></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> &nbsp;(</font></font><a href="https://github.com/federico-busato/Modern-CPP-Programming/blob/master/htmls/19.Advanced_Topics_II.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> html</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> )</font></font></td>
+<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">错误处理、C++ 习惯用法、智能指针</font></font></td>
+</tr>
+<tr>
+<td><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">20</font></font></strong></td>
+<td><a href="https://github.com/federico-busato/Modern-CPP-Programming/blob/master/20.Optimization_I.pdf"><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">优化 I - 基本概念</font></font></strong></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">&nbsp;(</font></font><a href="https://github.com/federico-busato/Modern-CPP-Programming/blob/master/htmls/20.Optimization_I.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> html</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> )</font></font></td>
+<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Ahmdal 定律、性能界限、架构概念（ILP、SIMD 等）、内存层次结构</font></font></td>
+</tr>
+<tr>
+<td><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">21</font></font></strong></td>
+<td><a href="https://github.com/federico-busato/Modern-CPP-Programming/blob/master/21.Optimization_II.pdf"><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">优化二-代码优化</font></font></strong></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">&nbsp;（</font></font><a href="https://github.com/federico-busato/Modern-CPP-Programming/blob/master/htmls/21.Optimization_II.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> html</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）</font></font></td>
+<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">算术优化、内存优化等。</font></font></td>
+</tr>
+<tr>
+<td><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">22</font></font></strong></td>
+<td><a href="https://github.com/federico-busato/Modern-CPP-Programming/blob/master/22.Optimization_III.pdf"><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">优化 III - 非编码优化和基准测试</font></font></strong></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">&nbsp;(</font></font><a href="https://github.com/federico-busato/Modern-CPP-Programming/blob/master/htmls/22.Optimization_III.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> html</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> )</font></font></td>
+<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">编译器优化、分析和基准测试工具</font></font></td>
+</tr>
+</tbody>
+</table>
+<p dir="auto"><em><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">全合一书</font></font></strong></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：</font></font><a href="https://github.com/federico-busato/Modern-CPP-Programming/blob/master/modern-cpp.pdf"><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> modern-cpp.pdf</font></font></strong></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（可能有一些提交），</font></font><a href="https://github.com/federico-busato/Modern-CPP-Programming/blob/master/htmls/modern-cpp.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> html</font></font></a></p>
+<h2 tabindex="-1" dir="auto"><a id="user-content-topics-in-details" class="anchor" aria-hidden="true" tabindex="-1" href="#topics-in-details"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">主题详情</font></font></h2>
+<p dir="auto"><strong><a href="https://github.com/federico-busato/Modern-CPP-Programming/blob/master/01.Introduction.pdf"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">一、简介</font></font></a></strong></p>
+<ul dir="auto">
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">C/C++ 编程语言简史</font></font></strong></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">应用领域和受欢迎程度</font></font></strong></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">C++ 哲学</font></font></strong></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">C++ 的弱点</font></font></strong></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">书籍和参考文献</font></font></strong></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">课程</font></font></strong></li>
+</ul>
+<p dir="auto"><strong><a href="https://github.com/federico-busato/Modern-CPP-Programming/blob/master/02.Basic_Concepts_I.pdf"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">2. 基本概念一——基本类型和操作</font></font></a></strong></p>
+<ul dir="auto">
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">准备工作</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：我应该使用什么编译器？，我应该使用什么编辑器/IDE编译器？，如何编译？</font></font></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">你好世界</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：I/O 流</font></font></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">C++ 基本类型概述</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：算术类型、非标准算术类型、</font></font><code>void</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">类型、指针类型和</font></font><code>nullptr</code></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">转换规则</font></font></strong></li>
+<li><strong><code>auto</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">宣言</font></font></strong></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">C++ 运算符</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：运算符优先级、前缀/后缀递增/递减、赋值、复合和逗号运算符、太空船运算符</font></font><code>&lt;=&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">、安全比较运算符</font></font></li>
+</ul>
+<p dir="auto"><strong><a href="https://github.com/federico-busato/Modern-CPP-Programming/blob/master/03.Basic_Concepts_II.pdf"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">3. 基本概念 II - 整数和浮点类型</font></font></a></strong></p>
+<ul dir="auto">
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">整数数据类型</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：固定宽度整数、</font></font><code>size_t</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有</font></font><code>ptrdiff_t</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">符号/无符号整数特征、提升、截断、未定义行为</font></font></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">浮点类型和算术</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：IEEE 浮点标准和其他表示法、正常/非正常值、无穷大、非数字 ( </font></font><code>NaN</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">)、机器 Epsilon、最后一位单位 (ULP)、备忘单、摘要、算术属性、检测浮点点错误</font></font></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">浮点问题</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：灾难性取消、浮点比较</font></font></li>
+</ul>
+<p dir="auto"><strong><a href="https://github.com/federico-busato/Modern-CPP-Programming/blob/master/04.Basic_Concepts_III.pdf"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">4. 基本概念 III - 实体和控制流</font></font></a></strong></p>
+<ul dir="auto">
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">实体</font></font></strong></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">声明和定义</font></font></strong></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">枚举器</font></font></strong></li>
+<li><strong><code>struct</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">, 位域,</font></font><code>union</code></strong></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">控制流</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：</font></font><code>if</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">语句、</font></font><code>for</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">循环、基于范围的</font></font><code>for</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">循环</font></font><code>switch</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">、、、</font></font><code>goto</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">避免未使用变量警告</font></font><code>[[maybe unused]]</code></li>
+</ul>
+<p dir="auto"><strong><a href="https://github.com/federico-busato/Modern-CPP-Programming/blob/master/05.Basic_Concepts_IV.pdf"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">5. 基本概念 IV - 内存概念</font></font></a></strong></p>
+<ul dir="auto">
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">堆和栈</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：栈内存、、、</font></font><code>new</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">非</font></font><code>delete</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">分配放置分配、非抛出分配、内存泄漏</font></font></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">初始化</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：变量初始化、统一初始化、固定大小数组初始化、结构体初始化、动态内存初始化</font></font></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">指针和引用</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：指针操作、地址运算符</font></font><code>&amp;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">、引用</font></font></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">常量</font></font><code>const</code><font style="vertical-align: inherit;"></font><code>constexpr</code><font style="vertical-align: inherit;"></font><code>consteval</code><font style="vertical-align: inherit;"></font><code>constinit</code></strong><font style="vertical-align: inherit;"></font><code>if constexpr</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font><strong><font style="vertical-align: inherit;">文字</font></strong><strong><font style="vertical-align: inherit;">,,,,,,,,,, </font></strong><strong><font style="vertical-align: inherit;">_</font></strong><font style="vertical-align: inherit;"> _ </font></font><code>std::is constant evaluated()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">_</font></font><code>if consteval</code></li>
+<li><strong><code>volatile</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">关键词</font></font></strong></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">显式类型转换</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：</font></font><code>static_cast</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">, </font></font><code>const_cast</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">, </font></font><code>reinterpret_cast</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">, 类型双关</font></font></li>
+<li><code>sizeof</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">操作员</font></font></li>
+</ul>
+<p dir="auto"><strong><a href="https://github.com/federico-busato/Modern-CPP-Programming/blob/master/06.Basic_Concepts_V.pdf"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">6. 基本概念五——函数和预处理</font></font></a></strong></p>
+<ul dir="auto">
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">功能</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：按值传递、按指针传递、按引用传递、函数签名和重载、重载和</font></font><code>=delete</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">、默认参数、属性</font></font><code>[[attributes]]</code></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">函数指针和函数对象</font></font></strong></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Lambda 表达式</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：捕获列表、参数、可组合性、、、、、、</font></font><code>constexpr/consteval</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">捕获</font><font style="vertical-align: inherit;">列表</font></font><code>template</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font></font><code>mutable</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">类</font></font><code>[[nodiscard]]</code><font style="vertical-align: inherit;"></font></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">预处理</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：预处理器、常见错误、源位置宏、条件编译宏、字符串化运算符 ( </font></font><code>#</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">)  </font></font><code>#error</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font></font><code>warning</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">, </font></font><code>#pragma</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">、标记粘贴运算符 ( </font></font><code>##</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">)、可变参数宏</font></font></li>
+</ul>
+<p dir="auto"><strong><a href="https://github.com/federico-busato/Modern-CPP-Programming/blob/master/07.Object_Oriented_I.pdf"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">7. 面向对象编程 I - 类概念</font></font></a></strong></p>
+<ul dir="auto">
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">C++ 类</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：RAII 习惯用法</font></font></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">类层次结构</font></font></strong></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">访问说明符</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：继承访问说明符，何时用于</font></font><code>public/protected/private</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">数据成员？</font></font></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">类构造函数</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：默认构造函数、类初始化、对象统一初始化、委托构造函数、</font></font><code>explicit</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">关键字</font></font><code>[[nodiscard]]</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和类</font></font></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">复制构造函数</font></font></strong></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">类析构函数</font></font></strong></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">默认构造函数、析构函数和运算符</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">( </font></font><code>= default</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">)</font></font></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">类关键字</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">: </font></font><code>this</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">, </font></font><code>static</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">, </font></font><code>const</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">, </font></font><code>mutable</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">, </font></font><code>using</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">, </font></font><code>friend</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">,</font></font><code>delete</code></li>
+</ul>
+<p dir="auto"><strong><a href="https://github.com/federico-busato/Modern-CPP-Programming/blob/master/08.Object_Oriented_II.pdf"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">8.面向对象编程二——多态性和运算符重载</font></font></a></strong></p>
+<ul dir="auto">
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">多态性</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：</font></font><code>virtual</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">方法、虚表、</font></font><code>override</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">关键字、</font></font><code>final</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">关键字、常见错误、纯虚方法、抽象类和接口</font></font></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">继承铸造和运行时类型识别</font></font></strong></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">运算符重载</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：概述、比较运算符</font></font><code>&lt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">、太空船运算符</font></font><code>&lt;=&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">、下标运算符</font></font><code>[]</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">、多维下标运算符</font></font><code>[]</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">、函数调用运算符</font></font><code>()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">、静态运算符</font></font><code>[]</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和运算符</font></font><code>()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">、转换运算符</font></font><code>T()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">、返回类型重载解析、自增和自减运算符</font></font><code>++</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">/ </font></font><code>--</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">、赋值运算符</font></font><code>=</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">、流运算符</font></font><code>&lt;&lt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">、运算符注释</font></font></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">C++ 特殊对象</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：聚合、平凡类、标准布局类、普通旧数据 (POD)、层次结构</font></font></li>
+</ul>
+<p dir="auto"><strong><a href="https://github.com/federico-busato/Modern-CPP-Programming/blob/master/09.Templates_I.pdf"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">9. 模板和元编程 I - 函数模板和编译时实用程序</font></font></a></strong></p>
+<ul dir="auto">
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">功能模板</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：概述、模板参数、模板参数 - 默认值、重载、专业化</font></font></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">模板变量</font></font></strong></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">模板参数类型</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：通用类型注释、</font></font><code>auto</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">占位符、类模板参数类型、数组和指针类型、函数类型</font></font></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">编译时实用程序</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">: </font></font><code>static_assert</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">,</font></font><code>decltype</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">关键字,</font></font><code>using</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">关键字</font></font></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">类型特征</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：概述、类型特征库、类型操作</font></font></li>
+</ul>
+<p dir="auto"><strong><a href="https://github.com/federico-busato/Modern-CPP-Programming/blob/master/10.Templates_II.pdf"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">10. 模板和元编程 II - 类模板和 SFINAE</font></font></a></strong></p>
+<ul dir="auto">
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">类模板</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：类特化、类模板构造函数、构造函数模板自动推导（CTAD）</font></font></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">类模板 - 高级概念</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：类 + 函数 - 专业化、从属名称 -</font></font><code>typename</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font></font><code>template</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">关键字、类模板层次结构和</font></font><code>using</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">、</font></font><code>friend</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">关键字、模板模板参数</font></font></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">模板元编程</font></font></strong></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">SFINAE：替换失败不是错误</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：函数 SFINAE、类 SFINAE、类 + 函数 SFINAE</font></font></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">可变参数模板</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：折叠表达式、可变参数类模板</font></font></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">C++20 概念</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：概述、</font></font><code>concept</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">关键字、</font></font><code>requires</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">子句、</font></font><code>requires</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">表达式、</font></font><code>requires</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">表达式 + 子句、</font></font><code>requires</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">子句 + 表达式</font></font><code>requires</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">以及</font></font><code>constexpr</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">, 嵌套</font></font><code>requires</code></li>
+</ul>
+<p dir="auto"><strong><a href="https://github.com/federico-busato/Modern-CPP-Programming/blob/master/11.Translation_Units_I.pdf"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">11. 翻译单元 I - 链接和单一定义规则</font></font></a></strong></p>
+<ul dir="auto">
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">基本概念</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：翻译单元、本地和全局范围、链接</font></font></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">存储类别和持续时间</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：存储持续时间、存储类别</font></font><code>static</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font></font><code>extern</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">关键字、内部/外部链接示例</font></font></li>
+<li><strong><font style="vertical-align: inherit;"></font><code>const</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和 的</font><font style="vertical-align: inherit;">链接</font></font><code>constexpr</code></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：静态初始化顺序惨败</font></font></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">联动总结</font></font></strong></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">处理多个翻译单元</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：多个翻译单元中的类</font></font></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">单一定义规则 (ODR)</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：全局变量问题、ODR - 第 3 点、</font></font><code>inline</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">函数/变量</font></font><code>constexpr</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">以及</font></font><code>inline</code></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ODR - 功能模板</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：案例、</font></font><code>extern</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">关键字</font></font></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ODR - 类模板</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：案例、</font></font><code>extern</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">关键字</font></font></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ODR 未定义行为和摘要</font></font></strong></li>
+</ul>
+<p dir="auto"><strong><a href="https://github.com/federico-busato/Modern-CPP-Programming/blob/master/12.Translation_Units_II.pdf"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">12. 翻译单元 II - 包含、模块和命名空间</font></font></a></strong></p>
+<ul dir="auto">
+<li><strong><code>#include</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">问题</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：前向声明、包括保护、循环依赖、常见链接错误</font></font></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">C++20 模块</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：概述、术语、可见性和可达性、模块单元类型、关键字、全局模块片段、私有模块片段、标头模块单元、模块分区</font></font></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">命名空间</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：命名空间函数与</font></font><code>static</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">方法、命名空间别名、匿名命名空间、</font></font><code>inline</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">命名空间、属性和命名空间</font></font></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">编译多个翻译单元</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：基本编译器标志、编译方法、处理库、构建静态/动态库、查找动态库依赖项、分析对象/可执行符号</font></font></li>
+</ul>
+<p dir="auto"><strong><a href="https://github.com/federico-busato/Modern-CPP-Programming/blob/master/13.Code_Convention.pdf"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">13. 代码约定</font></font></a></strong></p>
+<ul dir="auto">
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">C++ 项目组织</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：项目目录、项目文件、“通用”项目组织注释、替代方案 -“规范”项目组织</font></font></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">编码风格和约定</font></font></strong></li>
+<li><strong><code>#include</code></strong></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">宏和预处理</font></font></strong></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">命名空间</font></font></strong></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">变量和算术类型</font></font></strong></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">功能</font></font></strong></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">结构和类</font></font></strong></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">控制流</font></font></strong></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">现代 C++ 特性</font></font></strong></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">可维护性</font></font></strong></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我们</font></font></strong></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">可读性和格式</font></font></strong></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">代码文档</font></font></strong></li>
+</ul>
+<p dir="auto"><strong><a href="https://github.com/federico-busato/Modern-CPP-Programming/blob/master/14.Ecosystem_I.pdf"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">14. 生态系统一——调试</font></font></a></strong></p>
+<ul dir="auto">
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">调试</font></font></strong></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">断言</font></font></strong></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">执行调试</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：断点、观察点/捕捉点、控制流、堆栈和信息、打印、反汇编</font></font></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">内存调试</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：</font></font><code>valgrind</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">、堆栈保护</font></font></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">消毒剂</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：地址消毒剂、泄漏消毒剂、内存消毒剂、未定义行为消毒剂</font></font></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">调试总结</font></font></strong></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">编译器警告</font></font></strong></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">静态分析</font></font></strong></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">代码测试</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：单元测试、测试驱动开发（TDD）、代码覆盖率、模糊测试</font></font></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">代码质量</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：</font></font><code>clang-tidy</code></li>
+</ul>
+<p dir="auto"><strong><a href="https://github.com/federico-busato/Modern-CPP-Programming/blob/master/15.Ecosystem_II.pdf"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">15. 生态系统 II - Cmake 和其他工具</font></font></a></strong></p>
+<ul dir="auto">
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">CMake</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：</font></font><code>cmake</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font></font><code>ctest</code></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">代码文档</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：</font></font><code>doxygen</code></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">代码统计</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：计算代码行数、循环复杂度分析器</font></font></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">其他工具</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：代码格式化 - </font></font><code>clang-format</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">、</font></font><code>Compiler Explorer</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">代码转换 - </font></font><code>CppInsights</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">、代码自动完成 - </font></font><code>GitHub Co-Pilot/TabNine/Kite</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">、本地代码搜索 - </font></font><code>ripgrep</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">、代码搜索引擎 - </font></font><code>searchcode/grep.app</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">、代码基准测试 - </font></font><code>Quick-Bench</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">、编码字体</font></font></li>
+</ul>
+<p dir="auto"><strong><a href="https://github.com/federico-busato/Modern-CPP-Programming/blob/master/16.Utilities.pdf"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">16. 公用事业</font></font></a></strong></p>
+<ul dir="auto">
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">I/O 流</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：操纵器，</font></font><code>ofstream/ifstream</code></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">字符串</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">: </font></font><code>std::string</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">, 数值转换, </font></font><code>std::string_view</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">, </font></font><code>std::format</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">,</font></font><code>std::print</code></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">数学库</font></font></strong></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">随机数</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：基本概念、C++ </font></font><code>&lt;random&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">、种子、PRNG 周期和质量、分布、准随机</font></font></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">时间测量</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：挂钟时间、用户时间、系统时间</font></font></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">标准类模板</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">: </font></font><code>std::pair</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">, </font></font><code>std::tuple</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">, </font></font><code>std::variant</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">, </font></font><code>std::optional</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">, </font></font><code>std::any</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">,</font></font><code>std::stacktrace</code></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文件系统库</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：查询方法、修改方法</font></font></li>
+</ul>
+<p dir="auto"><strong><a href="https://github.com/federico-busato/Modern-CPP-Programming/blob/master/17.Iterators_Containers_Alg.pdf"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">17.容器、迭代器和算法</font></font></a></strong></p>
+<ul dir="auto">
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">容器和迭代器</font></font></strong></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">序列容器</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：</font></font><code>std::array</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">, </font></font><code>std::vector</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">, </font></font><code>std::list</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">, </font></font><code>std::deque</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">,</font></font><code>std::forward_list</code></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">关联容器</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：</font></font><code>std::set</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">, </font></font><code>std::map</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">,</font></font><code>std::multiset</code></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">容器适配器</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：</font></font><code>std::stack</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">, </font></font><code>std::queue</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">,</font></font><code>std::priority_queue</code></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">看法</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：</font></font><code>std::span</code></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">实现自定义迭代器</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：语义，实现一个简单的迭代器</font></font></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">迭代器实用方法</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：</font></font><code>std::advance</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">、、、、、容器</font><font style="vertical-align: inherit;">访问方法、迭代</font></font><code>std::next</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">器</font><font style="vertical-align: inherit;">特征</font></font><code>std::prev</code><font style="vertical-align: inherit;"></font><code>std::distance</code><font style="vertical-align: inherit;"></font></li>
+<li><strong><font style="vertical-align: inherit;"></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">算法</font><strong><font style="vertical-align: inherit;">库</font></strong><font style="vertical-align: inherit;">：</font></font><code>std::find_if</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">,,,, </font></font><code>std::sort</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">_ </font><font style="vertical-align: inherit;">_</font></font><code>std::accumulate</code><font style="vertical-align: inherit;"></font><code>std::generate</code><font style="vertical-align: inherit;"></font><code>std::remove_if</code></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">C++20 范围</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：关键概念、范围视图、范围适配器、范围工厂、范围算法、范围操作</font></font></li>
+</ul>
+<p dir="auto"><strong><a href="https://github.com/federico-busato/Modern-CPP-Programming/blob/master/18.Advanced_Topics_I.pdf"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">18. 高级主题 I</font></font></a></strong></p>
+<ul dir="auto">
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">移动语义</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：</font></font><code>lvalues</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font></font><code>rvalues</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">引用、移动语义、</font></font><code>std::move</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">类声明语义</font></font></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">通用参考和完美转发</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：通用参考、参考折叠规则、完美转发</font></font></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">价值类别</font></font></strong></li>
+<li><strong><code>&amp;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">、</font></font><code>&amp;&amp;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">引用限定符和</font></font><code>volatile</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">重载</font></font></strong></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">复制消除和 RVO</font></font></strong></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">类型推导</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：按引用传递、按指针传递、按值传递、</font></font><code>auto</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">推导</font></font></li>
+<li><strong><code>const</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">正确性</font></font></strong></li>
+</ul>
+<p dir="auto"><strong><a href="https://github.com/federico-busato/Modern-CPP-Programming/blob/master/19.Advanced_Topics_II.pdf"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">19. 高级主题 II</font></font></a></strong></p>
+<ul dir="auto">
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">未定义的行为：</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">常见情况，检测未定义的行为</font></font></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">错误处理</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：C++ 异常、定义自定义异常、</font></font><code>noexcept</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">关键字、内存分配问题、替代错误处理方法</font></font></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">C++ 习语</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：零/三/五规则、单例、PIMPL、CRTP、模板虚拟函数</font></font></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">智能指针</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：</font></font><code>std::unique_ptr</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">, </font></font><code>std::shared_ptr</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">,</font></font><code>std::weak_ptr</code></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">并发</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：线程方法、互斥、原子、基于任务的并行</font></font></li>
+</ul>
+<p dir="auto"><strong><a href="https://github.com/federico-busato/Modern-CPP-Programming/blob/master/20.Optimization_I.pdf"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">20.优化一——基本概念</font></font></a></strong></p>
+<ul dir="auto">
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">简介</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：摩尔定律、摩尔定律的局限性、优化的原因</font></font></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">基本概念</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：渐近复杂性、时间记忆权衡、开发周期、艾哈姆达尔定律、吞吐量、带宽、延迟、性能界限、算术强度</font></font></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">基本架构概念</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：指令级并行（ILP）、利特尔定律、数据级并行（SIMD）、线程级并行（TLP）、单指令多线程（SIMT）、RISC、CISC指令集</font></font></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">内存层次结构</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：内存层次结构概念、内存局部性</font></font></li>
+</ul>
+<p dir="auto"><strong><a href="https://github.com/federico-busato/Modern-CPP-Programming/blob/master/21.Optimization_II.pdf"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">21.优化二——代码优化</font></font></a></strong></p>
+<ul dir="auto">
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">I/O操作</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：</font></font><code>printf</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">内存映射I/O，加速原始数据加载</font></font></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">内存优化</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：堆内存、堆栈内存、缓存利用率、数据对齐、内存预取</font></font></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">算术</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：数据类型、运算、转换、浮点、编译器内部函数、范围内的值、查找表</font></font></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">控制流</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：循环提升、循环展开、分支提示</font></font><code>[[likely/unlikely]]</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">、编译器提示</font></font><code>[[assume]]</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">、递归</font></font></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">函数</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：函数调用成本、参数传递、函数优化、函数内联、指针别名</font></font></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">面向对象编程</font></font></strong></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">标准库和其他语言方面</font></font></strong></li>
+</ul>
+<p dir="auto"><strong><a href="https://github.com/federico-busato/Modern-CPP-Programming/blob/master/22.Optimization_III.pdf"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">22. 优化 III - 非编码优化和基准测试</font></font></a></strong></p>
+<ul dir="auto">
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">编译器优化</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：关于编译器、编译器优化标志、链接器优化标志、体系结构标志、帮助编译器生成更好的代码、配置文件引导优化 (PGO)、后处理二进制优化器</font></font></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">编译器转换技术</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：基本转换、循环不切换、循环融合、循环裂变、循环交换、循环平铺</font></font></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">库和数据结构</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：外部库</font></font></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">性能基准测试</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：测试什么？、工作负载/数据集质量、缓存行为、稳定的 CPU 性能、程序、多线程注意事项、程序内存布局、测量开销、编译器优化、指标评估</font></font></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">分析</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">: </font></font><code>gprof</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">, </font></font><code>uftrace</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">, </font></font><code>callgrind</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">, </font></font><code>cachegrind</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">, </font></font><code>perf</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Linux 分析器</font></font></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">并行计算</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：并发与并行、性能扩展、古斯塔夫森定律、并行编程语言</font></font></li>
+</ul>
+<h3 tabindex="-1" dir="auto"><a id="user-content-roadmap" class="anchor" aria-hidden="true" tabindex="-1" href="#roadmap"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">路线图</font></font></h3>
+<ol dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">软件设计篇</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">构建方面章节（例如减少构建时间）</font></font></li>
+</ol>
+<h3 tabindex="-1" dir="auto"><a id="user-content-essential-tool" class="anchor" aria-hidden="true" tabindex="-1" href="#essential-tool"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">必备工具</font></font></h3>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在线编译和执行：</font></font><a href="https://godbolt.org/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">CompilerExplorer</font></font></a></p>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对于代码执行：[添加新..] -&gt; [仅执行]</font></font></li>
+</ul>
+<h3 tabindex="-1" dir="auto"><a id="user-content-reporting-bugs--and-contributing" class="anchor" aria-hidden="true" tabindex="-1" href="#reporting-bugs--and-contributing"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">报告错误🐛并做出贡献</font></font></h3>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您发现任何拼写错误、概念错误或需要改进的部分，请使用</font></font><code>issue</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">面板进行报告。</font></font></p>
+<h2 tabindex="-1" dir="auto"><a id="user-content-author" class="anchor" aria-hidden="true" tabindex="-1" href="#author"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">作者</font></font></h2>
+<p dir="auto"><code>Federico Busato</code></p>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">推特：</font></font><a href="https://twitter.com/fedebusato" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">twitter.com/fedebusato</font></font></a></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">领英：</font></font><a href="https://www.linkedin.com/in/federico-busato/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">www.linkedin.com/in/federico-busato/</font></font></a></li>
+</ul>
+</article></div>
