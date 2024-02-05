@@ -31,34 +31,7 @@
 ## C++11  /  C++14  /  C++17  / C++20 / (C++23)
 
 
-<div class="Box-sc-g0xbh4-0 bJMeLZ js-snippet-clipboard-copy-unpositioned" data-hpc="true"><article class="markdown-body entry-content container-lg" itemprop="text"><h1 tabindex="-1" dir="auto"><a id="user-content-modern-c-programming" class="anchor" aria-hidden="true" tabindex="-1" href="#modern-c-programming"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">现代 C++ 编程</font></font></h1>
-<p align="center" dir="auto">
-<a target="_blank" rel="noopener noreferrer" href="/federico-busato/Modern-CPP-Programming/blob/master/other/cpp_logo.png"><img src="/federico-busato/Modern-CPP-Programming/raw/master/other/cpp_logo.png" style="max-width: 100%;"></a>
-</p>
-<p align="center" dir="auto">
-    <a href="https://github.com/federico-busato/Modern-CPP-Programming/releases" alt="发布">
-        <img src="https://camo.githubusercontent.com/3287d214ae2efb503bf365a79f8554001cdca896288e4b9f0d9daf861b51ca80/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f762f72656c656173652f666564657269636f2d62757361746f2f4d6f6465726e2d4350502d50726f6772616d6d696e673f7374796c653d666f722d7468652d6261646765" data-canonical-src="https://img.shields.io/github/v/release/federico-busato/Modern-CPP-Programming?style=for-the-badge" style="max-width: 100%;">
-    </a>
-</p>
-<p align="center" dir="auto">
-    
-        <a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/8628a36a2c53206682489ed74f0b098df89486ef6efb82aac9cae201b251408a/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f73746172732f666564657269636f2d62757361746f2f4d6f6465726e2d4350502d50726f6772616d6d696e673f7374796c653d666f722d7468652d6261646765"><img src="https://camo.githubusercontent.com/8628a36a2c53206682489ed74f0b098df89486ef6efb82aac9cae201b251408a/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f73746172732f666564657269636f2d62757361746f2f4d6f6465726e2d4350502d50726f6772616d6d696e673f7374796c653d666f722d7468652d6261646765" data-canonical-src="https://img.shields.io/github/stars/federico-busato/Modern-CPP-Programming?style=for-the-badge" style="max-width: 100%;"></a>
-    
-    <a href="https://github.com/federico-busato/Modern-CPP-Programming/network/members" alt="叉子">
-        <img src="https://camo.githubusercontent.com/0ae2534a5b5665f8855a63f376d7509acfdbd98cb0195049f40f71bc246d350b/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f666f726b732f666564657269636f2d62757361746f2f4d6f6465726e2d4350502d50726f6772616d6d696e673f7374796c653d666f722d7468652d6261646765" data-canonical-src="https://img.shields.io/github/forks/federico-busato/Modern-CPP-Programming?style=for-the-badge" style="max-width: 100%;">
-    </a>
-</p>
-<p align="center" dir="auto">
-    <a href="https://github.com/federico-busato/Modern-CPP-Programming/commits/master" alt="提交">
-        <img src="https://camo.githubusercontent.com/bb8bfcf6f5f9a0f58686a92010701e0359263eef170c1a3cbff1263003f9d6f2/68747470733a2f2f62616467656e2e6e65742f6769746875622f636f6d6d6974732f666564657269636f2d62757361746f2f4d6f6465726e2d4350502d50726f6772616d6d696e673f7374796c653d666f722d7468652d6261646765267363616c653d312e32" data-canonical-src="https://badgen.net/github/commits/federico-busato/Modern-CPP-Programming?style=for-the-badge&amp;scale=1.2" style="max-width: 100%;">
-    </a>
-</p>
-<p align="center" dir="auto">
-    <a href="https://github.com/federico-busato/Modern-CPP-Programming-Material/issues" alt="问题">
-        <img src="https://camo.githubusercontent.com/a23c10672be719290b53d6a0e225cd10a0fc8f1617f743e76368a5e65e849dbf/68747470733a2f2f62616467656e2e6e65742f6769746875622f636c6f7365642d6973737565732f666564657269636f2d62757361746f2f4d6f6465726e2d4350502d50726f6772616d6d696e673f7374796c653d666f722d7468652d6261646765267363616c653d312e32" data-canonical-src="https://badgen.net/github/closed-issues/federico-busato/Modern-CPP-Programming?style=for-the-badge&amp;scale=1.2" style="max-width: 100%;">
-    </a>
-</p>
-<h2 tabindex="-1" dir="auto"><a id="user-content-c11----c14----c17---c20--c23" class="anchor" aria-hidden="true" tabindex="-1" href="#c11----c14----c17---c20--c23"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">C++11 / C++14 / C++17 / C++20 / (C++23)</font></font></h2>
+ 
 <p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">该</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">开放式</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">课程面向那些已经熟悉 C 和面向对象编程并达到 C++ 编程熟练程度的人员。本课程涵盖 C++ 编程基础知识，并继续介绍高级 C++ 语义和概念。</font></font></p>
 <p dir="auto"><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">主要特征</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：</font></font></p>
 <ul dir="auto">
